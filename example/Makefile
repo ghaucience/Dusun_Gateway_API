@@ -19,6 +19,6 @@ objs		+= $(ROOTDIR)/../rbsdk/$(VERSION)/lib/librbsdk.a
 -include $(ROOTDIR)/make/arch.mk
 -include $(ROOTDIR)/make/rules.mk
 
-$(eval $(call LinkApp,test,$(objs)))
+$(eval $(call LinkApp,Zigbee_test,$(objs)))
 
 	
